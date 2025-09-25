@@ -1,2 +1,8 @@
-# vote-eligibility
-Develop a Python program on a remote system that checks if a person is eligible to  vote based on their age. Clone the program repository to your local system using Git  commands. 
+# Get the user's age as input
+age = int(input("Enter your age: "))
+
+# Determine voting eligibility
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
